@@ -16,7 +16,7 @@ export const App = () => {
           padding: 16,
         }}
       >
-        <img src="../Babel_Logo.svg" style={{ display: "block" }} />
+        <img src="./Babel_Logo.svg" style={{ display: "block" }} />
         <h1 style={{ marginBottom: 0, marginTop: 0, textAlign: "center" }}>
           Babel + JavaScript modules + Preact
         </h1>
