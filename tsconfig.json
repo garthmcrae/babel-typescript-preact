@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "paths": {
+      "react": ["./node_modules/preact/compat"],
+      "react-dom": ["./node_modules/preact/compat"]
+    },
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext"
+  }
+}

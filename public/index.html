@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Preact Example</title>
+    <style>
+      body {
+        background-color: #3b3c38;
+        color: #f5da55;
+        font-family: system-ui;
+        text-shadow: black 2px 0px;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "preact": "https://esm.sh/preact",
+          "preact/hooks": "https://esm.sh/preact/hook",
+          "preact/jsx-runtime": "https://esm.sh/preact/jsx-runtime",
+          "react": "https://esm.sh/preact/compat",
+          "react-dom": "https://esm.sh/preact/compat"
+        }
+      }
+    </script>
+  </head>
+  <body></body>
+  <!-- <script src="dist/main.js" type="module"></script> -->
+  <script src="babel-typescript-preact/dist/main.js" type="module"></script>
+</html>

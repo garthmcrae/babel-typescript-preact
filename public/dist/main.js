@@ -1,0 +1,1 @@
+import{render}from"react-dom";import{App}from"./App.js";import{jsx as _jsx}from"preact/jsx-runtime";render(_jsx(App,{}),document.body);
