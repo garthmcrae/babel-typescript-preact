@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { Image } from "./Image.js";
 import { RefreshOnFocus } from "./RefreshOnFocus.js";
 
 const Reloader =
@@ -16,9 +17,10 @@ export const App = () => {
           padding: 16,
         }}
       >
-        <img
+        <Image
           alt="Babel Logo"
-          src="./Babel_Logo.svg"
+          aspectRatio="1638 / 744"
+          src="/babel-typescript-preact/Babel_Logo.svg"
           style={{ display: "block" }}
         />
         <h1 style={{ marginBottom: 0, marginTop: 0, textAlign: "center" }}>
