@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build": "babel src --out-dir public/dist --extensions .ts,.tsx --compact",
-    "start": "babel src --out-dir public/dist --extensions .ts,.tsx --compact --watch"
+    "build": "babel src --out-dir public/babel-typescript-preact/dist --extensions .ts,.tsx --compact",
+    "start": "babel src --out-dir public/babel-typescript-preact/dist --extensions .ts,.tsx --compact --watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.26.4",
