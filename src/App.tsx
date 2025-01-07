@@ -20,7 +20,7 @@ export const App = () => {
         <Image
           alt="Babel Logo"
           aspectRatio="1638 / 744"
-          src="../Babel_Logo.svg"
+          src="./Babel_Logo.svg"
           style={{ display: "block" }}
         />
         <h1 style={{ marginBottom: 0, marginTop: 0, textAlign: "center" }}>
